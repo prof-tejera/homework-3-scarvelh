@@ -12,10 +12,6 @@ class Button extends Component {
         this.color = this.props.styleColors[0];
 
 
-        //this.setState(this.props.style)
-
-        //this.props.onButtonClick(this.props.index)
-        //console.log('Passing :' + this.props.text + ' handler function');
     };
 
 
@@ -23,7 +19,7 @@ class Button extends Component {
 
         return <button className="loginButton" onClick={this.onSubmitButtonClick}
                        style={this.props.style} id='buttons'>{this.props.text}</button>;
-        //return <button className="loginButton" onClick={this.onSubmitButtonClick} style={{backgroundColor:{color}}}>{this.props.text}</button>;
+
     }
 
 }
