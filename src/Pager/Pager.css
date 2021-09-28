@@ -1,0 +1,8 @@
+button:focus {
+    outline: blue auto 5px;
+    background-color: blue;
+}
+button:active{
+    background:olive;
+}
+
