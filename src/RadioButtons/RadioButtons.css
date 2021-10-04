@@ -1,0 +1,9 @@
+.radio-button-div{
+    display:flex;
+    text-align: center;
+
+}
+.radio-spacing{
+    padding-top:20px;
+    padding-left: 10px;
+}
